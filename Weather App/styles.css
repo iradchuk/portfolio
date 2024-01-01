@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);    
+}
+
+.search {
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+button {
+    background-color: #3f51b5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #3949ab;
+}
+
+.weather {
+    padding: 15px;
+    text-align: center;    
+    display: none;
+}
+
+.waether-icon {
+    width: 80px;
+    height: 80px;    
+}
+
+.temp {
+    font-size: 24px;
+    margin: 10px 0;    
+}
+
+.city {
+    font-size: 18px;
+    margin-bottom: 15px;    
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+}
+
+.details img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    margin: 0;
+    font-size: 14px;
+}
+
+.error {
+    margin-left: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: none;
+}
